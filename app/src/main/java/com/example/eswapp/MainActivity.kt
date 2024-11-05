@@ -48,7 +48,7 @@ fun GoogleMapScreen(modifier: Modifier = Modifier) {
     val markerPositions = listOf(
         LatLng(30.62798, -96.33441), // College Station, TX
         LatLng(30.6129, -96.3423),   // MSC
-//        LatLng(30.6236, -96.3301)    // Example marker 2
+        LatLng(30.6, -96.34),   // test marker
     )
 
     // Render Google Map using Compose
