@@ -1,0 +1,33 @@
+<!-- res/layout/info_window_college_station.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/collegeStationBackground">
+
+    <!-- Image for College Station -->
+    <ImageView
+        android:id="@+id/marker_image"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/college_station_image"
+        android:contentDescription="College Station Image" />
+
+    <TextView
+        android:id="@+id/marker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Station"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/marker_snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home of TAMU."
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+</LinearLayout>
