@@ -1,0 +1,25 @@
+<!-- res/layout/info_window_test_marker.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/testMarkerBackground">
+
+    <TextView
+        android:id="@+id/marker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Marker"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/marker_snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description for a test marker."
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
+</LinearLayout>
