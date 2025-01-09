@@ -2,24 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/collegeStationBackground"
+    android:background="@color/evendarkerteal_battery"
     android:orientation="vertical"
     android:padding="10dp">
 
 
-    <!-- Image for College Station -->
+    <!-- Image for battery recycling places -->
     <ImageView
         android:id="@+id/marker_image"
-        android:layout_width="wrap_content"
+        android:layout_width="398dp"
         android:layout_height="100dp"
-        android:contentDescription="College Station Image"
-        android:src="@drawable/college_station_image" />
+        android:contentDescription="Battery/ voltage Recycling"
+        android:src="@drawable/batterypic" />
 
     <TextView
         android:id="@+id/marker_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="College Station"
+        android:text="Battery Recycling"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -28,7 +28,7 @@
         android:id="@+id/marker_snippet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home of TAMU."
+        android:text="And other mercury or lead products"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 </LinearLayout>

@@ -11,4 +11,8 @@
     <color name="collegeStationBackground">#880000</color>
     <color name="mscBackground">#FFC107</color>
     <color name="testMarkerBackground">#03A9F4</color>
+    <color name="periwinkle_general">#c1d3ff</color>
+    <color name="teal_multistream">#b4d9d9</color>
+    <color name="darkerteal_centers">#6ab5b5</color>
+    <color name="evendarkerteal_battery">#126b6b</color>
 </resources>

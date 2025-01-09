@@ -2,33 +2,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/collegeStationBackground"
+    android:background="@color/periwinkle_general"
     android:orientation="vertical"
     android:padding="10dp">
 
 
     <!-- Image for College Station -->
+
     <ImageView
         android:id="@+id/marker_image"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:contentDescription="College Station Image"
-        android:src="@drawable/college_station_image" />
+        android:contentDescription="General Recycling Image"
+        android:src="@drawable/general_recycling" />
 
     <TextView
         android:id="@+id/marker_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="College Station"
+        android:text="General Recycling Station"
         android:textColor="@android:color/white"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="@drawable/MattoneRegular"/>
 
     <TextView
         android:id="@+id/marker_snippet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home of TAMU."
+        android:text=""
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 </LinearLayout>
