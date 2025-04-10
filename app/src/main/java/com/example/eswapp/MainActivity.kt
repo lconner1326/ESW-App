@@ -69,8 +69,7 @@ fun GoogleMapScreen(modifier: Modifier = Modifier) {
         MarkerInfo(
             position = LatLng(30.6, -96.34),
             title = "Test Marker",
-            snippet = "Description for a test marker."
-
+            snippet = "Description for a cool test marker."
         )
     )
 
