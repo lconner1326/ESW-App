@@ -13,8 +13,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 import com.example.eswapp.ui.theme.ESWAppTheme
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.CameraPosition
+import com.google.android.gms.maps.model.MarkerOptions
 import com.google.maps.android.compose.GoogleMap
 import com.google.maps.android.compose.Marker
 import com.google.maps.android.compose.MarkerState
@@ -68,11 +70,14 @@ fun GoogleMapScreen(modifier: Modifier = Modifier) {
             position = LatLng(30.6, -96.34),
             title = "Test Marker",
             snippet = "Description for a test marker."
+
         )
     )
 
     // State to hold the selected marker info
     val selectedMarker = remember { mutableStateOf<MarkerInfo?>(null) }
+
+
 
     GoogleMap(
         modifier = modifier.fillMaxSize(),
@@ -84,6 +89,7 @@ fun GoogleMapScreen(modifier: Modifier = Modifier) {
                 state = MarkerState(position = markerInfo.position),
                 title = markerInfo.title,
                 snippet = markerInfo.snippet,
+                icon = BitmapDescriptorFactory.fromResource(R.drawable.recycle),
                 onClick = {
                     selectedMarker.value = markerInfo
                     true // Consume the click event
